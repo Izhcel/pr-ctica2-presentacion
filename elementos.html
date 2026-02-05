@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Elementos HTML</title>
+         <link rel="stylesheet" href="css/main.css" />
+</head>
+
+
+<body>
+
+<header class="header">
+    <div class="container nav">
+        <div class="logo">UPA</div>
+
+     <ul class="nav-menu">
+    <li><a href="index.html#inicio">Inicio</a></li>
+    <li><a href="index.html#servicios">Servicios</a></li>
+    <li><a href="index.html#nosotros">Nosotros</a></li>
+    <li><a href="elementos.html" class="active">Elementos</a></li>
+    <li><a href="tabla.html">Tabla</a></li>
+    <li><a href="index.html#contacto">Contacto</a></li>
+</ul>
+
+    </div>
+</header>
+
+
+<main>
+
+<section class="section section-alt elementos">
+    <div class="container">
+
+        <!-- TÍTULO COMO EN LA FOTO -->
+        <div class="section-header">
+            <h2>Elementos HTML</h2>
+            <p>Ejemplos funcionales de los elementos básicos de HTML</p>
+        </div>
+
+        <!-- GRID DE TARJETAS -->
+        <div class="grid">
+
+            <!-- TEXTO -->
+            <div class="card">
+                <h3>Texto</h3>
+                <p>
+                    Este es un párrafo con texto en 
+                    <strong>negrita</strong> y 
+                    <em>cursiva</em>.
+                </p>
+
+                <h4>Encabezados</h4>
+                <h5>h1 – h6</h5>
+            </div>
+
+            <!-- VÍNCULOS -->
+            <div class="card">
+                <h3>Vínculos</h3>
+                <p>
+                    Visita 
+                    <a href="https://www.w3schools.com" target="_blank">
+                        W3Schools
+                    </a>
+                    para aprender HTML.
+                </p>
+
+                <a href="#formulario" class="btn btn-primary">
+                    Ir al formulario
+                </a>
+            </div>
+
+            <!-- LISTAS -->
+            <div class="card">
+                <h3>Listas</h3>
+
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+
+                <ol>
+                    <li>Diseñar la página</li>
+                    <li>Escribir el código</li>
+                    <li>Probar en el navegador</li>
+                </ol>
+            </div>
+
+            <!-- IMAGEN -->
+            <div>
+            <img src="assets/elemento.png" alt="UPA ISC">
+             </div>
+
+            <!-- IFRAME -->
+ <h3>Mapa embebido</h3>
+<iframe 
+    src="https://www.google.com/maps?q=Ciudad+de+México&output=embed"
+    width="300"
+    height="200"
+    style="border:0;"
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+
+
+            <!-- FORMULARIO -->
+            <div class="card" id="formulario">
+                <h3>Formulario</h3>
+
+                <form class="form">
+                    <label>Nombre</label>
+                    <input type="text" required>
+
+                    <label>Correo</label>
+                    <input type="email" required>
+
+                    <label>Edad</label>
+                    <input type="number">
+
+                    <label>Comentarios</label>
+                    <textarea rows="4"></textarea>
+
+                    <label>Selecciona una opción</label>
+                    <select>
+                        <option>HTML</option>
+                        <option>CSS</option>
+                        <option>JavaScript</option>
+                    </select>
+
+                    <button class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+</main>
+
+<footer class="footer">
+    <div class="container footer-content">
+        <p>
+                    &copy; 2026 Universidad Polit&eacute;cnica de Atlacom&uacute;lco | Izhcel Arzate Miranda ISC-802 
+                    Todos los derechos reservados.
+                </p>
+    </div>
+</footer>
+
+</body>
+
+</html>

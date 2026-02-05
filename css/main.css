@@ -292,3 +292,154 @@ img {
     opacity: 1;
     pointer-events: auto;
 }
+/* =========================
+   ESTILOS PARA TABLAS
+========================= */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2rem;
+    background-color: #fff;
+    border-radius: var(--radius);
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+thead {
+    background-color: var(--color-primary);
+    color: #fff;
+}
+
+thead th {
+    padding: 1rem;
+    text-align: left;
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+tbody td {
+    padding: 1rem;
+    font-size: 0.9rem;
+    border-bottom: 1px solid #e2e8f0;
+    vertical-align: middle;
+}
+
+tbody tr:hover {
+    background-color: #f1f5ff;
+}
+
+tfoot td {
+    padding: 1rem;
+    font-weight: 600;
+    background-color: var(--color-light);
+    text-align: right;
+}
+
+table img {
+    border-radius: 0.5rem;
+    object-fit: cover;
+}
+/* =========================
+   SECCIÓN DE ELEMENTOS HTML
+========================= */
+
+.elementos {
+    background-color: var(--color-light);
+}
+
+.elementos .container {
+    max-width: 900px;
+}
+
+/* Bloques individuales */
+.elemento {
+    background: #fff;
+    padding: 2rem;
+    border-radius: var(--radius);
+    margin-bottom: 2.5rem;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+/* Títulos de cada elemento */
+.elemento h2 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    color: var(--color-primary);
+    border-left: 4px solid var(--color-primary);
+    padding-left: 0.75rem;
+}
+
+/* Texto */
+.elemento p {
+    color: var(--color-gray);
+    margin-bottom: 1rem;
+}
+
+/* Listas */
+.elemento ul,
+.elemento ol {
+    margin-left: 1.25rem;
+}
+
+.elemento li {
+    margin-bottom: 0.5rem;
+}
+
+/* Enlaces */
+.elemento a {
+    color: var(--color-primary);
+    font-weight: 600;
+}
+
+.elemento a:hover {
+    text-decoration: underline;
+}
+
+/* Imagen */
+.elemento img {
+    margin-top: 1rem;
+    max-width: 300px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+/* Iframe */
+.elemento iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    margin-top: 1rem;
+}
+
+/* Formulario */
+.elementos form {
+    display: grid;
+    gap: 1rem;
+}
+
+.elementos label {
+    font-weight: 600;
+    color: var(--color-dark);
+}
+
+.elementos input,
+.elementos textarea,
+.elementos select {
+    padding: 0.75rem;
+    border-radius: var(--radius);
+    border: 1px solid #cbd5e1;
+    font-family: inherit;
+}
+
+.elementos input:focus,
+.elementos textarea:focus,
+.elementos select:focus {
+    outline: none;
+    border-color: var(--color-primary);
+}
+
+/* Botón formulario */
+.elementos button {
+    margin-top: 1rem;
+    align-self: flex-start;
+}
