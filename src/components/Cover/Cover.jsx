@@ -13,6 +13,8 @@ function Cover({ title, studentName, subject, group }) {
                     <p className={stylesCover.label}>Materia:</p>
                     <p className={stylesCover.value}>{subject}</p>
                 </div>
+
+
                 <div className={stylesCover.infoSection}>
                     <p className={stylesCover.label}>Grupo:</p>
                     <p className={stylesCover.value}>{group}</p>
