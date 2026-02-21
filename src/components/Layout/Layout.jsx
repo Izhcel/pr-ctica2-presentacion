@@ -16,7 +16,7 @@ function Layout({ children }) {
                         <li><a href="elementos.html">Elementos</a></li>
                         <li><a href="tabla.html">Tabla</a></li>
                         <li><a href="index.html#contacto">Contacto</a></li>
-                        <li><a href="presentacion.html">Presentaci&oacute;n</a></li>
+                        <li><a href="presentación.html">Presentaci&oacute;n</a></li>
                     </ul>
                 </nav>
             </header>
@@ -26,7 +26,7 @@ function Layout({ children }) {
             <footer className="footer">
                 <div className="container footer-content">
                     <p>
-                        &copy; 2026 Universidad Polit&eacute;cnica de Atlacom&uacute;lco | Izhcel Arzate Miranda ISC-802 
+                        &copy; 2026 Universidad Polit&eacute;cnica de Atlacom&uacute;lco | Izhcel Arzate Miranda ISC 
                         Todos los derechos reservados.
                     </p>
                 </div>
