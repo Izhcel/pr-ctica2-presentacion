@@ -13,10 +13,10 @@ function Layout({ children }) {
                         <li><a href="index.html">Inicio</a></li>
                         <li><a href="index.html#servicios">Servicios</a></li>
                         <li><a href="index.html#nosotros">Nosotros</a></li>
-                        <li><a href="elementos.html">Elementos</a></li>
-                        <li><a href="tabla.html">Tabla</a></li>
+                        <li><a href="index.html#elementos">Elementos</a></li>
+                        <li><a href="index.html#tabla.html">Tabla</a></li>
                         <li><a href="index.html#contacto">Contacto</a></li>
-                        <li><a href="presentación.html">Presentaci&oacute;n</a></li>
+                        <li><a href="index.html#presentacion.html">Presentaci&oacute;n</a></li>
                     </ul>
                 </nav>
             </header>

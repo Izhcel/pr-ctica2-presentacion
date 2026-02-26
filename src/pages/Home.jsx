@@ -1,10 +1,12 @@
 import Layout from "../components/Layout/Layout";
 import Cover from "../components/Cover/Cover";
 import Presentation from "../components/Presentation/Presentation";
+import Test from "../components/test";
 
 function Home() {
   return (
     <Layout>
+      <Test />
       <Cover
         title="Universidad Politécnica de Atlacomulco"
         studentName="Izhcel Arzate Miranda"
